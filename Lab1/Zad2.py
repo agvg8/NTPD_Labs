@@ -11,7 +11,7 @@ X = data.data
 y = data.target
 
 # Podział na zbiór treningowy (80%) i testowy (20%)
-X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.3, random_state=42)
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.3, random_state=72)
 
 # Utworzenie i wytrenowanie modelu
 model = LogisticRegression(max_iter=1000)
